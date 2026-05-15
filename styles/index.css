@@ -10,6 +10,21 @@ section {
     padding-top: 1.5rem;
 }
 
+.projects a:hover{
+    color:   #a9a8ec;
+
+}
+
+.projects a{
+    color: #7097c9;
+}
+.contact a{
+    color: #374cc0;
+}
+
+.contact a:hover{
+    color: #0928d6;
+}
 .intro {
     min-height: 15rem;
     display: flex;
@@ -30,10 +45,20 @@ h2 {
 h3 {
     font-size: 1.25rem;
     margin-bottom: 0.5rem;
+    
 }
 
 p {
     max-width: 650px;
+    font-size: 1.1rem;
+}
+
+.projects p{
+    color: #c4cee6;
+}
+
+.projects h3{
+    color:#a9a8ec;;
 }
 
 ul {
@@ -42,8 +67,8 @@ ul {
 
 .projects {
     display: grid;
-    
     gap: 1.5rem; /*shorthand for row-gap or column-gap*/
+    
 }
 
 .projects h2 {
@@ -51,9 +76,11 @@ ul {
 }
 
 article {
-    border: 1px solid #111111; /*makes the border visible and customizable*/
+    border: 0.2rem solid #111111; /*makes the border visible and customizable*/
+    border-style:dashed;
     padding: 1rem;
-    background-color: #ffffff;
+    background-color: #3d3666;
+    max-width: 1024px; /* makes background color not exceed the max image size*/
 }
 
 article a {
@@ -67,6 +94,8 @@ article a {
 }
 
 
+
+
 @media (width > 768px) 
 {
     
@@ -76,8 +105,18 @@ article a {
     }
 
      .intro p{
-        font-size: 1.2rem;
-    }
+        font-size: 1.3rem;
+    } 
+
+     h2 {
+    font-size: 2rem;
+    margin: 0 0 1rem;
+      }
+
+    h3 {
+    font-size: 1.45rem;
+    margin-bottom: 0.5rem;
+}
 
     .intro {
     min-height: 20rem;
@@ -86,10 +125,12 @@ article a {
     justify-content: center;
     }
 
-    h2 {
-    font-size: 2rem;
-    margin: 0 0 1rem;
-      }
+   
+
+       p {
+    max-width: 650px;
+    font-size: 1.1rem;
+   }
 }
 
 @media (width > 1024px)
@@ -97,6 +138,18 @@ article a {
     h1{
         font-size: 7rem;
     }
+
+     h2 {
+    font-size: 2rem;
+    margin: 0 0 1rem;
+      }
+
+       h3 {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+}
+
+      
     .intro p{
         font-size: 1.5rem;
     }
@@ -108,8 +161,14 @@ article a {
     justify-content: center;
     }
 
-    h2 {
-    font-size: 2rem;
-    margin: 0 0 1rem;
-      }
+   
+
+   p {
+    max-width: 650px;
+    font-size: 1.3rem;
+   }
+
+   
+
+
 }
