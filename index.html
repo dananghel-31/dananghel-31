@@ -11,7 +11,7 @@
 
     <main>
 
-        <section id="intro">
+        <section class="intro">
             <h1>Dan Anghel</h1>
 
             <p>
@@ -20,7 +20,7 @@
             </p>
         </section>
 
-        <section id="about">
+        <section class="about">
             <h2>About Me</h2>
 
             <p>
@@ -29,7 +29,7 @@
             </p>
         </section>
 
-        <section id="skills">
+        <section class="skills">
             <h2>Tech Stack</h2>
 
             <ul>
@@ -40,14 +40,15 @@
             </ul>
         </section>
 
-        <section id="projects">
+        <section class="projects">
             <h2>My Projects</h2>
 
             <article>
-                <img
-                    src="./assets/images/project-placeholder.jpg"
-                    alt="Preview image of my featured project"
-                >
+                <img srcset="./assets/images/Projects_Section-small.jpg 400w, ./assets/images/Projects_Section-medium.jpg 800w, ./assets/images/Projects_Section-large.jpg 1600w"
+                sizes="(max-width: 1024px) 100vw,
+                1024px"
+                src="./assets/images/Projects_Section-medium.jpg" 
+                 alt="Preview image of the Projects section">
 
                 <h3>Tic Tac Toe</h3>
 
@@ -82,7 +83,7 @@
             </article>
         </section>
 
-        <section id="contact">
+        <section class="contact">
             <h2>Contact</h2>
 
             <p>
