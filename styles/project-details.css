@@ -20,6 +20,15 @@ section {
 .project-header a {
     margin-bottom: 2rem;
     font-weight: bold;
+    color: rgb(3, 30, 53);
+}
+
+.project-header p{
+    font-size: 1.1rem;
+}
+
+.project-header a:hover{
+    color:rgb(5, 5, 48) ;
 }
 
 h1 {
@@ -41,9 +50,11 @@ p {
 }
 
 .project-details {
-    background-color: #496baa;
-    border: 1px solid #111111;
+    background-color: hsl(258, 49%, 87%);
+    border: 0.2rem solid #111111;
+     border-style:dashed;
     padding: 1.5rem;
+    max-width: 1024px;
 }
 
 .project-tools ul {
@@ -52,4 +63,45 @@ p {
 
 .project-tools li {
     margin-bottom: 0.5rem;
+}
+
+@media (width > 768px) 
+{
+    
+h1{
+    font-size: 5rem;
+} 
+
+.project-details {
+        padding: 2rem;
+    }
+
+    .project-details p{
+        font-size: 1.05rem;
+    }
+
+    .project-header p{
+        font-size: 1.2rem;
+    }
+
+}
+
+@media (width > 1024px)
+{
+    h1{
+      font-size: 7rem;
+    }
+
+    .project-details {
+        padding: 4%;
+    }
+
+    .project-details p{
+        font-size: 1.1rem;
+    }
+
+     .project-header p{
+        font-size: 1.4rem;
+    }
+ 
 }

@@ -10,6 +10,10 @@ section {
     padding-top: 1.5rem;
 }
 
+a {
+    color: #7097c9;
+}
+
 .projects a:hover{
     color:   #a9a8ec;
 
@@ -110,25 +114,20 @@ article a {
 
      h2 {
     font-size: 2rem;
-    margin: 0 0 1rem;
+    
       }
 
     h3 {
     font-size: 1.45rem;
-    margin-bottom: 0.5rem;
+    
 }
 
     .intro {
     min-height: 20rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     }
 
-   
-
        p {
-    max-width: 650px;
+    
     font-size: 1.1rem;
    }
 }
@@ -141,12 +140,12 @@ article a {
 
      h2 {
     font-size: 2rem;
-    margin: 0 0 1rem;
+
       }
 
        h3 {
     font-size: 1.6rem;
-    margin-bottom: 0.5rem;
+    
 }
 
       
@@ -156,15 +155,11 @@ article a {
 
     .intro {
     min-height: 25rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     }
 
    
 
    p {
-    max-width: 650px;
     font-size: 1.3rem;
    }
 
