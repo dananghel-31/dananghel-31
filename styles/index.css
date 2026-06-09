@@ -16,6 +16,7 @@ a {
 
 .projects a{
     color: #a9a8ec;
+    display: inline-block; /* makes the element only as wide as its content; useful for hover */
 }
 
 .projects a:hover{
